@@ -45,5 +45,9 @@ def select_device(force_cpu=False):
     return device
 
 
+def test_select_device():
+    select_device()
+
+
 if __name__ == '__main__':
     select_device()
